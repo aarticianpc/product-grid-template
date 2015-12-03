@@ -115,13 +115,6 @@ body {
 	color: #000;
 }
 
-
-
-
-
-
-
-
 .ball {
   -webkit-background-size: 50px;
   background-size: 50px;
@@ -130,12 +123,12 @@ body {
   position: absolute; 
 }
 .ball-orange {
-  background-image: url("/static/site/img/ball-orange.png");
+  background-image: url("../img/ball-orange.png");
   right: 70px;
   top: -20px;
 }
 .ball-green {
-  background-image: url("/static/site/img/ball-green.png");
+  background-image: url("../img/ball-green.png");
   bottom: -15px;
   right: 35px;
 }
@@ -180,7 +173,10 @@ body {
   -moz-transform: translateY(-50%);
 }
 
-
+.fancybox i{
+	color: #fff;
+    font-size: 33px;
+}
 
 
 /* Sidebar */
